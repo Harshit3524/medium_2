@@ -59,7 +59,7 @@ export const Auth=({type}:{type: "signup" | "signin"})=>{
             </div>
           </div>
           <div className="pt-8">
-          {type==="signup"?<LabelledInput label="Name" placeholder="Gaurav Sharma" onChange={(e)=>{
+          {type==="signup"?<LabelledInput label="Name" placeholder="Harshit Jhalani" onChange={(e)=>{
             //overriding the state value with the input
              setPostInputs({
                 ...postInputs,
